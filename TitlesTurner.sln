@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitlesTurner", "TitlesTurner\TitlesTurner.csproj", "{A54704FF-1164-48C4-9049-9C044AA78B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitlesDatabase", "..\TitlesApplication\TitlesDatabase\TitlesDatabase.csproj", "{260C6C83-A819-4FBD-97ED-3BB3904658E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitlesLogic", "TitlesLogic\TitlesLogic.csproj", "{217E46A4-CF4D-4CA9-A7AF-7BA8FA2B4F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{891B13FD-79B1-4C26-A8CD-87A01791FB99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A54704FF-1164-48C4-9049-9C044AA78B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54704FF-1164-48C4-9049-9C044AA78B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54704FF-1164-48C4-9049-9C044AA78B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54704FF-1164-48C4-9049-9C044AA78B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260C6C83-A819-4FBD-97ED-3BB3904658E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260C6C83-A819-4FBD-97ED-3BB3904658E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260C6C83-A819-4FBD-97ED-3BB3904658E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260C6C83-A819-4FBD-97ED-3BB3904658E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217E46A4-CF4D-4CA9-A7AF-7BA8FA2B4F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217E46A4-CF4D-4CA9-A7AF-7BA8FA2B4F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217E46A4-CF4D-4CA9-A7AF-7BA8FA2B4F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217E46A4-CF4D-4CA9-A7AF-7BA8FA2B4F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{891B13FD-79B1-4C26-A8CD-87A01791FB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891B13FD-79B1-4C26-A8CD-87A01791FB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891B13FD-79B1-4C26-A8CD-87A01791FB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{891B13FD-79B1-4C26-A8CD-87A01791FB99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
