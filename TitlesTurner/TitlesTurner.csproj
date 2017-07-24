@@ -256,13 +256,13 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\TitlesApplication\TitlesDatabase\TitlesDatabase.csproj">
-      <Project>{260c6c83-a819-4fbd-97ed-3bb3904658e2}</Project>
-      <Name>TitlesDatabase</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{891b13fd-79b1-4c26-a8cd-87a01791fb99}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TitlesDatabase\TitlesDatabase.csproj">
+      <Project>{260c6c83-a819-4fbd-97ed-3bb3904658e2}</Project>
+      <Name>TitlesDatabase</Name>
     </ProjectReference>
     <ProjectReference Include="..\TitlesLogic\TitlesLogic.csproj">
       <Project>{217e46a4-cf4d-4ca9-a7af-7ba8fa2b4f99}</Project>

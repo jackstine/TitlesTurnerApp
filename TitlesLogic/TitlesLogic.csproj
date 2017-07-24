@@ -58,13 +58,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\TitlesApplication\TitlesDatabase\TitlesDatabase.csproj">
-      <Project>{260c6c83-a819-4fbd-97ed-3bb3904658e2}</Project>
-      <Name>TitlesDatabase</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{891b13fd-79b1-4c26-a8cd-87a01791fb99}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TitlesDatabase\TitlesDatabase.csproj">
+      <Project>{260c6c83-a819-4fbd-97ed-3bb3904658e2}</Project>
+      <Name>TitlesDatabase</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
